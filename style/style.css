@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#div1, #ready{
+    text-align: center;
+
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800;
+}
+#div1{
+    background-color: aquamarine;
+}
+#ready{
+    background-color: red;
+}
+
+#ready>div, #div1>div{
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+
+}
