@@ -8,7 +8,7 @@ var Controller = function(){
 
 
     this.sendMyCommand = function (name,value){
-        sendCommand("eris.signage.me", "biuro@lokalmedia.pl", "lokalmedia14378", "608", name, value);
+        sendCommand("eris.signage.me", "*********", "***********", "608", name, value);
     }
 
     this.served = [];
